@@ -4,47 +4,72 @@
 #
 Name     : mvn-kerby
 Version  : 1.0.1
-Release  : 2
+Release  : 3
 URL      : https://github.com/apache/directory-kerby/archive/kerby-all-1.0.1.tar.gz
 Source0  : https://github.com/apache/directory-kerby/archive/kerby-all-1.0.1.tar.gz
-Source1  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-kerb/1.0.1/kerby-kerb-1.0.1.pom
-Source2  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.jar
-Source3  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom
-Source4  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.jar
-Source5  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom
-Source6  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.jar
-Source7  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom
-Source8  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.jar
-Source9  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom
-Source10  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.jar
-Source11  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom
-Source12  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.jar
-Source13  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom
-Source14  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.jar
-Source15  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom
-Source16  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.jar
-Source17  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom
-Source18  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.jar
-Source19  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom
-Source20  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-all/1.0.1/kerby-all-1.0.1.pom
-Source21  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.jar
-Source22  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom
-Source23  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-common/1.0.1/kerby-common-1.0.1.pom
-Source24  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.jar
-Source25  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom
-Source26  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.jar
-Source27  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom
-Source28  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-provider/1.0.1/kerby-provider-1.0.1.pom
-Source29  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.jar
-Source30  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom
-Source31  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.jar
-Source32  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.pom
-Source33  : https://repo1.maven.org/maven2/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.jar
-Source34  : https://repo1.maven.org/maven2/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.pom
+Source1  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-admin/1.1.0/kerb-admin-1.1.0.jar
+Source2  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-admin/1.1.0/kerb-admin-1.1.0.pom
+Source3  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-client/1.1.0/kerb-client-1.1.0.jar
+Source4  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-client/1.1.0/kerb-client-1.1.0.pom
+Source5  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-common/1.1.0/kerb-common-1.1.0.jar
+Source6  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-common/1.1.0/kerb-common-1.1.0.pom
+Source7  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-core/1.1.0/kerb-core-1.1.0.jar
+Source8  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-core/1.1.0/kerb-core-1.1.0.pom
+Source9  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-crypto/1.1.0/kerb-crypto-1.1.0.jar
+Source10  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-crypto/1.1.0/kerb-crypto-1.1.0.pom
+Source11  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-identity/1.1.0/kerb-identity-1.1.0.jar
+Source12  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-identity/1.1.0/kerb-identity-1.1.0.pom
+Source13  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-server/1.1.0/kerb-server-1.1.0.jar
+Source14  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-server/1.1.0/kerb-server-1.1.0.pom
+Source15  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-simplekdc/1.1.0/kerb-simplekdc-1.1.0.jar
+Source16  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-simplekdc/1.1.0/kerb-simplekdc-1.1.0.pom
+Source17  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-util/1.1.0/kerb-util-1.1.0.jar
+Source18  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-util/1.1.0/kerb-util-1.1.0.pom
+Source19  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-asn1/1.1.0/kerby-asn1-1.1.0.jar
+Source20  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-asn1/1.1.0/kerby-asn1-1.1.0.pom
+Source21  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-config/1.1.0/kerby-config-1.1.0.jar
+Source22  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-config/1.1.0/kerby-config-1.1.0.pom
+Source23  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-kerb/1.0.1/kerby-kerb-1.0.1.pom
+Source24  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-util/1.1.0/kerby-util-1.1.0.jar
+Source25  : https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-util/1.1.0/kerby-util-1.1.0.pom
+Source26  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.jar
+Source27  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom
+Source28  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.jar
+Source29  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom
+Source30  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.jar
+Source31  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom
+Source32  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.jar
+Source33  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom
+Source34  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.jar
+Source35  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom
+Source36  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.jar
+Source37  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom
+Source38  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.jar
+Source39  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom
+Source40  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.jar
+Source41  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom
+Source42  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.jar
+Source43  : https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom
+Source44  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-all/1.0.1/kerby-all-1.0.1.pom
+Source45  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.jar
+Source46  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom
+Source47  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-common/1.0.1/kerby-common-1.0.1.pom
+Source48  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.jar
+Source49  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom
+Source50  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.jar
+Source51  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom
+Source52  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-provider/1.0.1/kerby-provider-1.0.1.pom
+Source53  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.jar
+Source54  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom
+Source55  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.jar
+Source56  : https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.pom
+Source57  : https://repo1.maven.org/maven2/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.jar
+Source58  : https://repo1.maven.org/maven2/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause MIT Public-Domain
 Requires: mvn-kerby-data = %{version}-%{release}
+Requires: mvn-kerby-license = %{version}-%{release}
 
 %description
 <!--
@@ -64,112 +89,208 @@ Group: Data
 data components for the mvn-kerby package.
 
 
+%package license
+Summary: license components for the mvn-kerby package.
+Group: Default
+
+%description license
+license components for the mvn-kerby package.
+
+
 %prep
+%setup -q -n directory-kerby-kerby-all-1.0.1
 
 %build
 
 %install
+mkdir -p %{buildroot}/usr/share/package-licenses/mvn-kerby
+cp LICENSE %{buildroot}/usr/share/package-licenses/mvn-kerby/LICENSE
+cp NOTICE %{buildroot}/usr/share/package-licenses/mvn-kerby/NOTICE
+cp kerby-dist/kdc-dist/LICENSE %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_LICENSE
+cp kerby-dist/kdc-dist/licenses/LICENSE-slf4j.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE-slf4j.txt
+cp kerby-dist/kdc-dist/licenses/LICENSE.base64.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.base64.txt
+cp kerby-dist/kdc-dist/licenses/LICENSE.jbzip2.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.jbzip2.txt
+cp kerby-dist/kdc-dist/licenses/LICENSE.jfastlz.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.jfastlz.txt
+cp kerby-dist/kdc-dist/licenses/LICENSE.jsr166y.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.jsr166y.txt
+cp kerby-dist/kdc-dist/licenses/LICENSE.libdivsufsort.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.libdivsufsort.txt
+cp kerby-dist/kdc-dist/licenses/LICENSE.protobuf.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.protobuf.txt
+cp kerby-dist/kdc-dist/licenses/LICENSE.webbit.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.webbit.txt
+cp kerby-dist/tool-dist/LICENSE %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_tool-dist_LICENSE
+cp kerby-dist/tool-dist/NOTICE %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_tool-dist_NOTICE
+cp kerby-dist/tool-dist/licenses/LICENSE-slf4j.txt %{buildroot}/usr/share/package-licenses/mvn-kerby/kerby-dist_tool-dist_licenses_LICENSE-slf4j.txt
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.1.0
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.1.0/kerb-admin-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.1.0
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.1.0/kerb-admin-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.1.0
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.1.0/kerb-client-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.1.0
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.1.0/kerb-client-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.1.0
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.1.0/kerb-common-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.1.0
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.1.0/kerb-common-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.1.0
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.1.0/kerb-core-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.1.0
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.1.0/kerb-core-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.1.0
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.1.0/kerb-crypto-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.1.0
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.1.0/kerb-crypto-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.1.0
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.1.0/kerb-identity-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.1.0
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.1.0/kerb-identity-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.1.0
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.1.0/kerb-server-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.1.0
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.1.0/kerb-server-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.1.0
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.1.0/kerb-simplekdc-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.1.0
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.1.0/kerb-simplekdc-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.1.0
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.1.0/kerb-util-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.1.0
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.1.0/kerb-util-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.1.0
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.1.0/kerby-asn1-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.1.0
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.1.0/kerby-asn1-1.1.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.1.0
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.1.0/kerby-config-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.1.0
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.1.0/kerby-config-1.1.0.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-kerb/1.0.1
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-kerb/1.0.1/kerby-kerb-1.0.1.pom
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-kerb/1.0.1/kerby-kerb-1.0.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.1.0
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.1.0/kerby-util-1.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.1.0
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.1.0/kerby-util-1.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.jar
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.jar
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.jar
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.jar
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.jar
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.jar
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.jar
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.jar
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.jar
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-all/1.0.1
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-all/1.0.1/kerby-all-1.0.1.pom
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-all/1.0.1/kerby-all-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.jar
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-common/1.0.1
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-common/1.0.1/kerby-common-1.0.1.pom
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-common/1.0.1/kerby-common-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.jar
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.jar
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-provider/1.0.1
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-provider/1.0.1/kerby-provider-1.0.1.pom
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-provider/1.0.1/kerby-provider-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.jar
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.jar
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.pom
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.jar
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.pom
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.pom
 
 
 %files
@@ -179,35 +300,76 @@ cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/kerby/token
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.1.0/kerb-admin-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-admin/1.1.0/kerb-admin-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.1.0/kerb-client-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-client/1.1.0/kerb-client-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.1.0/kerb-common-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-common/1.1.0/kerb-common-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.1.0/kerb-core-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-core/1.1.0/kerb-core-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.1.0/kerb-crypto-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-crypto/1.1.0/kerb-crypto-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.1.0/kerb-identity-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-identity/1.1.0/kerb-identity-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.1.0/kerb-server-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-server/1.1.0/kerb-server-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.1.0/kerb-simplekdc-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-simplekdc/1.1.0/kerb-simplekdc-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.1.0/kerb-util-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerb-util/1.1.0/kerb-util-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-all/1.0.1/kerby-all-1.0.1.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.1.0/kerby-asn1-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerby-asn1/1.1.0/kerby-asn1-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-common/1.0.1/kerby-common-1.0.1.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.1.0/kerby-config-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerby-config/1.1.0/kerby-config-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-kerb/1.0.1/kerby-kerb-1.0.1.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-provider/1.0.1/kerby-provider-1.0.1.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom
+/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.1.0/kerby-util-1.1.0.jar
+/usr/share/java/.m2/repository/org/apache/kerby/kerby-util/1.1.0/kerby-util-1.1.0.pom
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.pom
 /usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.jar
 /usr/share/java/.m2/repository/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.pom
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/mvn-kerby/LICENSE
+/usr/share/package-licenses/mvn-kerby/NOTICE
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_LICENSE
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE-slf4j.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.base64.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.jbzip2.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.jfastlz.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.jsr166y.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.libdivsufsort.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.protobuf.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_kdc-dist_licenses_LICENSE.webbit.txt
+/usr/share/package-licenses/mvn-kerby/kerby-dist_tool-dist_LICENSE
+/usr/share/package-licenses/mvn-kerby/kerby-dist_tool-dist_NOTICE
+/usr/share/package-licenses/mvn-kerby/kerby-dist_tool-dist_licenses_LICENSE-slf4j.txt
